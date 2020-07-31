@@ -6,12 +6,12 @@ def auto_filename_time(prefix='',sep='_',suffix='',ext='',
     from datetime import datetime
     from pytz import timezone
 
-    try:
-        from tzlocal import get_localzone
-        tz = get_localzone()
-    except:
-        print('tzlocal package not found, setting timezome=UTC')
-        tz= 'UTC'
+#     try:
+    from tzlocal import get_localzone
+    tz = get_localzone()
+#     except:
+#         print('tzlocal package not found, setting timezome=UTC')
+#         tz= 'UTC'
 
     ## Get current time
     now = datetime.now(tz).strftime(timeformat)
