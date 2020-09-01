@@ -59,7 +59,7 @@ dependencies:
   - glib=2.65.0=h577aef8_0
   - gmp=5.1.2=6
   - google-api-core=1.22.1=py36h9f0ad1d_0
-  - google-auth=1.21.0=py_0
+  - google-auth=1.20.1=py_0
   - google-cloud-core=1.4.1=pyh9f0ad1d_0
   - google-cloud-storage=1.31.0=pyh9f0ad1d_0
   - google-crc32c=1.0.0=py36h2de3d0e_0
@@ -99,8 +99,10 @@ dependencies:
   - jupyter_nbextensions_configurator=0.4.1=py36h9f0ad1d_1
   - keyring=21.2.1=py36h9f0ad1d_0
   - kiwisolver=1.2.0=py36h863e41a_0
-  - krb5=1.17.1=h75d18d8_3
+  - krb5=1.17.1=h75d18d8_2
   - lazy-object-proxy=1.5.1=py36h9de38fb_0
+  - libblas=3.8.0=14_mkl
+  - libcblas=3.8.0=14_mkl
   - libclang=9.0.1=default_hf57f61e_0
   - libcrc32c=1.1.1=hb1e8313_2
   - libcxx=10.0.1=h5f48129_0
@@ -140,12 +142,12 @@ dependencies:
   - notebook=6.0.3=py36h9f0ad1d_1
   - nspr=4.20=h0a44026_1000
   - nss=3.47=hc0980d9_0
-  - numpy=1.18.5=py36h55a193a_0
-  - numpy-base=1.18.5=py36h3304bdc_0
+  - numpy=1.19.1=py36h3b9f5b6_0
+  - numpy-base=1.19.1=py36hcfb5961_0
   - numpydoc=1.1.0=pyh9f0ad1d_0
   - openssl=1.1.1g=haf1e3a3_1
   - packaging=20.4=pyh9f0ad1d_0
-  - pandas=1.1.1=py36h27176af_0
+  - pandas=1.1.0=py36h27176af_0
   - pandoc=2.10.1=haf1e3a3_0
   - pandocfilters=1.4.2=py_1
   - pango=1.42.4=haa940fe_4
@@ -191,7 +193,7 @@ dependencies:
   - rope=0.17.0=pyh9f0ad1d_0
   - rsa=4.6=pyh9f0ad1d_0
   - s3transfer=0.3.3=py36h9f0ad1d_1
-  - scikit-learn=0.23.2=py36h959d312_0
+  - scikit-learn=0.23.2=py36h637a150_0
   - scipy=1.5.2=py36h912ce22_0
   - send2trash=1.5.0=py_0
   - setuptools=49.2.0=py36h9f0ad1d_0
